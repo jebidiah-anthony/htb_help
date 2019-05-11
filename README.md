@@ -225,7 +225,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ## PART 4 : Privilege Escalation (help -> root)
 
 1. Check files in the /home/help (__~/__) directory:
-   ```console:
+   ```console
    cat .bash_history
    # ...
    # su
@@ -247,4 +247,4 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
    - There seems to be an apparent attempt to use `su`
    - "__rOOTmEoRdIE__" doesn't work to authenticate __root__
      - Maybe it was entered with CAPS LOCK on
-     - __RootMeOrDie__ works
+     - "__RootMeOrDie__" works
