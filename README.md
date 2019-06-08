@@ -37,7 +37,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ## PART 2 : Port Enumeration
 
-1. Open http://10.10.10.119 (default: __port 80__)
+1. Open http://10.10.10.121 (default: __port 80__)
    - Landing Page: 
    
      ![Landing Page](./screenshots/80_help.png)
