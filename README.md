@@ -41,7 +41,11 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
    - Landing Page: 
    
      ![Landing Page](./screenshots/80_help.png)
-
+     
+     __NOTE(S)__:
+     - Opening tha base directory leads you to an __Apache2 Default Page__
+     - There might be some hidden directories
+     
    - Run `gobuster`:
      ```console
      gobuster -u http://10.10.10.121/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,txt
@@ -51,9 +55,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
    
      ![HelpDeskZ](./screenshots/80_help_support.png)
 
-   __NOTE(S)__:
-   - Opening tha base directory leads you to an __Apache2 Default Page__ 
-   - There is a [HelpDeskZ](https://github.com/evolutionscript/HelpDeskZ-1.0) web service on __*/support*__
+     __NOTE(S)__: 
+     - There is a [HelpDeskZ](https://github.com/evolutionscript/HelpDeskZ-1.0) web service on __*/support*__
 
 2. Open http://10.10.10.121:3000
    ```console
